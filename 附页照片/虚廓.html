@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>虚廓, Visual Tests</title>
+	<link rel="stylesheet" href="css/awesomplete.css" />
+	<script src="js/awesomplete.js"></script>
+	<script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+	<script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+	<script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+	<style>
+		*{padding: 0;margin: 0;}
+		h1{color: #ffffff;}
+		.logo,.ss{float: left;}
+		.box{color: #fff;margin-top:100px;clear: both;}
+		.bpx-a {width: 150px;margin: 5px 2%;float: left;}
+		#example img{width: 100%;}
+		a{text-decoration: none;}
+	</style>
+	<!--[if IE]>
+		<script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body style="background-color: black;">
+	<div style="margin: auto 4%;">
+		<div>
+			<div >
+				<div class="logo" style="margin: 20px auto;"><a href="index.html"><h1>HOME</h1></a><span style="color: #ffffff;">→虚廓</span></div>
+				<div class="ss" style="margin: 20px auto;margin-left: 900px;"><input class="awesomplete" list="mylist"  style="width: 250px;height: 30px;"/><button style="background-color: #fff;height: 35px;padding: 5px;">search</button></div>
+			</div>
+			<hr style="clear: both;">
+			<datalist id="mylist">
+			    <a href=""><option>Diabetes Bete, UX_UI Design</option></a>
+                <a href=""><option>Mature HUD, Sevice Design</option></a>
+                <a href=""><option>F2C,  Sevice Design</option></a>
+                <a href=""><option>Cage, Installation Art</option></a>
+			    <a href=""><option>虚廓, Visual Tests</option></a>
+			   <a href=""><option> Other Work, Painting</option></a>
+			</datalist>  
+			
+			  <div id="example">
+				  <img src="5. 虚廓, Visual Tests/20虚廓-01.png" >
+				  <img src="5. 虚廓, Visual Tests/21虚廓-02.png" >
+				  <img src="5. 虚廓, Visual Tests/22虚廓-03.png" alt="">
+				  
+			  </div>
+			  <script type="text/babel">
+			    ReactDOM.render(
+			      document.getElementById('example')
+			    );
+			  </script>
+	</div>
+	
+</body>
+</html>
